@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Zugangsdaten und sensible Informationen
+.env
+.env.*
+.streamlit/secrets.toml
+credentials.json
+
+# Rohdaten
+data_raw/
+data_raw.zip
+
+# Temporäre Excel-Dateien
+~$*.xlsx
+
+# PostgreSQL-Backups
+*.dump
+*.backup
+
+# Logdateien
+*.log
